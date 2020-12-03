@@ -18,7 +18,10 @@ LEDはアノード側をGPIO7,8,21,25に接続しています。GNDは各LEDご�
 # プログラムのインストール
 以下のようにしてインストールを行ってください。
 ```bash
-$ git clone 
+$ git clone https://github.com/fuminoriyoshizawa/robotsystems-task1.git
+$ cd robotsystems-task1/myled
 ```
+# 動作確認
+
 
 
