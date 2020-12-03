@@ -33,6 +33,7 @@ $ echo 3 > /dev/myled0 (左から3番目までが点灯)
 $ echo 4 > /dev/myled0 (左から4番目だけが点灯)
 ```
 # 動作の様子
+以下のリンクから実際の動作状況が確認できます。
 https://youtu.be/9dhs1au0ZRE
 
 
