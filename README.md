@@ -22,6 +22,16 @@ $ git clone https://github.com/fuminoriyoshizawa/robotsystems-task1.git
 $ cd robotsystems-task1/myled
 ```
 # 動作確認
+以下のようにしてLEDが光ることを確認してください。
+```bash
+$ make
+$ sudo insmod myled.ko
+$ sudo chmod 666 /dev/myled0
+$ echo 1 > /dev/myled0 (左から1番目が点灯)
+$ echo 2 > /dev/myled0 (左から2番目までが点灯)
+$ echo 3 > /dev/myled0 (左から3番目までが点灯)
+$ echo 4 > /dev/myled0 (左から4番目だけが点灯)
+```
 
 
 
